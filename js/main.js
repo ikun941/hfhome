@@ -63,7 +63,7 @@ window.addEventListener('load', function () {
 
     //延迟加载音乐播放器
     let element = document.createElement("script");
-    element.src = "music.js";
+    element.src = "./js/music.js";
     document.body.appendChild(element);
 
     //中文字体缓加载-此处写入字体源文件 （暂时弃用）
