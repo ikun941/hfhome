@@ -247,8 +247,10 @@ $("#github").mouseover(function () {
 });
 $("#qq").mouseover(function () {
     $("#link-text").html("有什么事吗");
+    document.getElementById("tooltip").style.display = "block";
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
+    document.getElementById("tooltip").style.display = "none";
 });
 $("#email").mouseover(function () {
     $("#link-text").html("来封 Email");
@@ -261,8 +263,10 @@ $("#bilibili").mouseover(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#telegram").mouseover(function () {
+    $("#imageContainer_wx").show(); // Show the image container
     $("#link-text").html("你懂的 ~");
 }).mouseout(function () {
+    $("#imageContainer_wx").hide(); // Hide the image container
     $("#link-text").html("通过这里联系我");
 });
 
