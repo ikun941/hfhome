@@ -1053,6 +1053,7 @@ footer {
 }
 
 #hoverImage_wx {
+    display: none;
     width: 200px;
     height: auto;
     border: 2px solid #ccc;
